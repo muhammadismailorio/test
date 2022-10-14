@@ -30,6 +30,6 @@ jobs:
       - name: Sync files to hosting
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with: 
-          server: testing.neuronious.com
-          username: ismail@testing.neuronious.com
+          server: orio.digital
+          username: test@orio.digital
           password: ${{ secrets.ftp_password }}
